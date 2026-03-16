@@ -38,7 +38,7 @@ In the example below, we consider the above bitstring to be stored in `bracket`.
 
 ### First Round Games
 
-The bits `bracket[0..7]` represent the first round in the East division:
+The bits `bracket[0..7]` represent the first round in the East region:
 - `bracket[0] == 0` represents the outcome of the top-most bracket game in the East region, #1 Duke vs. #16 Siena.  The `0` bit represents that the bracket has Duke winning and advancing in the tournament.
 - `bracket[1] == 1` represents the outcome of the next East region game, #8 Ohio State vs. #9 TCU.  The `1` bit represents that the bracket has TCU winning (the team on the "bottom" of the bracket match).
 - `bracket[2] == 0` represents #5 St. John's vs. #12 Northern Iowa, with St. John advancing.
@@ -51,7 +51,7 @@ The bits `bracket[8..31]` represent the first rounds in the South, West, and Mid
 
 ### Second Round Games
 
-The bits `bracket[32..35]` represent the second round games in the East division, and is based off the selection of teams advancing from the first round.
+The bits `bracket[32..35]` represent the second round games in the East region, and is based off the selection of teams advancing from the first round.
 
 - `bracket[32] == 0` represents the top of the bracket game in the second round.  Based on `[0]` and `[1]`, this bracket represents the game of #1 Duke vs. #9 TCU.  The `0` bit represents Duke advancing.
 - `bracket[33] == 0` represents the next game in the second round.  Based on `[2]` and `[3]`, this bracket represents the game of #5 St. John vs. #4 Kansas.  The `0` bit represents St. John advancing.
