@@ -22,7 +22,7 @@ On the "Exploring The Best NCAA March Madness Brackets" website, we provide a nu
 
 ## Sample Bracket
 
-The following shows the first 64 bits of `brackets.0000.bin` (notations/spacing added for clarity):
+The following shows the first 64 bits of `brackets.0000.bin` (comments/spacing added for clarity):
 
 ```
 01001001 01011010 01100110 01000000   # First round (E, S, W, then MW)
