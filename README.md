@@ -2,7 +2,7 @@
 
 This repository contains the binary files for the March Madness brackets generated for the 2026 tournament and displayed on https://waf.cs.illinois.edu/visualizations/Exploring-The-Best-NCAA-March-Madness-Brackets/
 
-Each binary file contains 1,000,000 unique brackets.  Each bracket is a 64-bit string, where:
+Each binary file contains 1,000,000 unique brackets.  Each bracket is a 64-bits, where:
 - The first 32 bits represent the outcome of "Round 1" games
 - The next 16 bits represent the outcome of "Round 2" games
 - The next 8 bits represent the outcome of the "Sweet 16" games
@@ -33,7 +33,7 @@ The following shows the first 64 bits of `brackets.0000.bin` (comments/spacing a
 0                                     # Unused and always `0` (for byte alignment)
 ```
 
-In the example below, we consider the above bitstring to be stored in `bracket`.
+In the example below, we consider a bitstring of these 64 bits to be stored in `bracket`.
 
 
 ### First Round Games
