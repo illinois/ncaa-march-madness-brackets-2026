@@ -13,7 +13,7 @@ Each binary file contains 1,000,000 unique brackets.  Each bracket is a 64-bits,
 
 A bit of `0` represents the visually "upper" team on the bracket winning the match and a `1` represents the other team on the bracket winning the match.
 
-Within each round, the first quarter of bits represents the "East" region; the next quarter represents the "South" region; the next quarter represents the "West" region; and the final quarter represents the "Midwest" region.
+Within each round, the first quarter of bits represents the "East" region; the next quarter represents the "South" region; the next quarter represents the "West" region; and the final quarter represents the "Midwest" region.  (The women's tournament brackets follows the same bracket pattern as the men's tournament, which makes the first quarter of bits represent Fort Worth 1, then Sacramento 4, then Sacramento 2, and finally Fort Worth 3.)
 
 Within each region, the first bit represents the top of the region, and each subsequent bit moves toward the bottom of the region as it appears visually on the official NCAA bracket.
 
